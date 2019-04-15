@@ -1,2 +1,5 @@
 .DS_Store
 *.csv
+.ipynb_checkpoints/
+8803.db
+csv_panama_papers.2018-02-14/
