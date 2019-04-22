@@ -1,7 +1,11 @@
+#initial exploration of data
+
 setwd("~/Google Drive/mgt-markets/mgt-8803/")
 
 library(igraph)
 
+#data_edges is the cleaned edges from the Paradise dataset
+#data_nodes is the list of countries and their id's
 LetterEdges = read.csv(file='data_edges.csv', sep=',')
 LetterNodes = read.csv(file='data_nodes.csv', sep=',')
 
